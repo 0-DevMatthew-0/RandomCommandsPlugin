@@ -1,1 +1,58 @@
+---
+name: application
+author: Bolts
+description: Application for Leet developer.
+version: "1.0.0"
+api: [1.13.0]
+main: bolts\application
 
+commands:
+    main:
+        description: Main reason why I would like to be a developer.
+        permission: randcmd.command.main
+    experience:
+        description: My experience with coding.
+        permission: randcmd.command.experience
+    information:
+        description: About me.
+        permission: randcmd.command.info
+    whyiamapplying:
+        description: Why I am applying for developer.
+        permission: randcmd.command.whyiamapplying
+    disclaimer:
+        description: Use it to find out.
+        permission: randcmd.command.disclaimer
+    pocketmineexp:
+        description: My experience with pocketmine.
+        permission: randcmd.command.pocketmineexp
+    hobbies:
+        description: My hobbies.
+        permission: randcmd.command.hobbies
+    leetexp:
+        description: My experience with leet.
+        permission: randcmd.command.leetexp
+permissions:
+    randcmd.command.main:
+        description: "Main reason why I would like to be a developer."
+        default: true
+    randcmd.command.experience:
+        description: "My experience with coding."
+        default: true
+    randcmd.command.information:
+        description: "About me"
+        default: true
+    randcmd.command.whyiamapplying:
+        description: "Why I am applying"
+        default: true
+    randcmd.command.disclaimer:
+        description: "Use it to find out"
+        default: true
+    randcmd.command.pocketmineexp:
+        description: "My experience with pocketmine."
+        default: true
+    randcmd.command.hobbies:
+        description: "My hobbies."
+        default: true
+    randcmd.command.leetexp:
+        description: "My experience with leet."
+        default: true
