@@ -1,1 +1,16 @@
+---
+name: Application
+author: Bolts
+description: Teleport command. Teleport to somebody else.
+version: "1.0.0"
+api: [1.13.0]
+main: bolts\teleport
 
+commands:
+    teleport:
+        description: Teleport to a player.
+        permission: randcmd.command.teleport
+permissions:
+    randcmd.command.teleport:
+        description: "Teleport to a player."
+        default: op
