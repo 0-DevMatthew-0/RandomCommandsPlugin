@@ -9,7 +9,7 @@ main: bolts\heal
 commands:
     heal:
         description: Heal a player.
-        permission: rancmd.command.heal
+        permission: randcmd.command.heal
 permissions:
     randcmd.command.heal:
         description: "Heal a player."
