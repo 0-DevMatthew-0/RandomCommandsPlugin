@@ -1,1 +1,34 @@
+---
+name: PluginInfo
+author: Bolts
+description: A random command plugin!
+version: "1.0.0"
+api: [1.13.0]
+main: bolts\main
 
+commands:
+    servversion:
+        description: Version of server.
+        permission: randcmd.command.servversion
+    promote:
+        description: Fake promotes chosen user.
+        permission: randcmd.command.promote
+    myname:
+        description: Tells user their name.
+        permission: randcmd.command.myname
+    pluginfo:
+        description: Plugin information.
+        permission: randcmd.command.pluginfo
+permissions:
+    randcmd.command.servversion:
+        description: "Version of server."
+        default: true
+    randcmd.command.promote:
+        description: "Fake promotes chosen user."
+        default: true
+    randcmd.command.myname:
+        description: "Tells user their name."
+        default: true
+    randcmd.command.pluginfo:
+        description: "Plugin information."
+        default: true
