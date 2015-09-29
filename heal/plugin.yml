@@ -1,1 +1,16 @@
+---
+name: heal
+author: Bolts
+description: Heal command.
+version: "1.0.0"
+api: [1.13.0]
+main: bolts\heal
 
+commands:
+    heal:
+        description: Heal a player.
+        permission: rancmd.command.heal
+permissions:
+    randcmd.command.heal:
+        description: "Heal a player."
+        default: op
