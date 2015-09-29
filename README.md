@@ -1,1 +1,1 @@
-This is a plugin I made as an example for my leet developer application. I actually made my application part of the plugin. The installation of this is the same as onebone's Economy plugin. I hope you like it.
+This is a plugin I made as an example for my leet developer application. I actually made my application part of the plugin. The installation of this is the same as onebone's Economy plugin. I hope you like it. If you notice any mistakes in file placement tell me as I copied these off of my IDE and it is hard to keep track.
