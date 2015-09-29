@@ -1,1 +1,16 @@
+---
+name: diceroll
+author: Bolts
+description: Roll a random number between 1 and 6 just like a dice.
+version: "1.0.0"
+api: [1.13.0]
+main: bolts\diceroll
 
+commands:
+    diceroll:
+        description: Roll the dice for a random number.
+        permission: randcmd.command.diceroll
+permissions:
+    randcmd.command.diceroll:
+        description: "Roll the dice for a random number."
+        default: true
